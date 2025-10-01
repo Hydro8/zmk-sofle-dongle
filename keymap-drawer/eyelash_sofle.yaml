@@ -59,7 +59,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: Y}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:progress-download$$
   - $$mdi:keyboard-space$$
   - {t: RETURN, h: '$$mdi:apple-keyboard-option$$'}
   - layer1
