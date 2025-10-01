@@ -45,14 +45,6 @@
     };
 
     behaviors {
-        swap: swapper {
-            compatible = "zmk,behavior-tri-state";
-            label = "SWAPPER";
-            timeout-ms = 1000;
-            #binding-cells = <0>;
-            bindings = <&kt LEFT_GUI>, <&kp TAB>, <&kt LEFT_GUI>;
-            ignored-key-positions = <1>;
-        };
     };
 
     keymap {
