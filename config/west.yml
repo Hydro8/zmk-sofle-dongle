@@ -10,8 +10,6 @@ manifest:
       url-base: https://github.com/englmaxi
     - name: dhruvinsh
       url-base: https://github.com/dhruvinsh
-    - name: prospector
-      url-base: https://github.com/t-ogura
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
@@ -29,9 +27,5 @@ manifest:
     - name: zmk-tri-state
       remote: dhruvinsh
       revision: main
-    - name: prospector-zmk-module
-      remote: prospector
-      revision: v1.1.1
-      path: modules/prospector-zmk-module
   self:
     path: config
