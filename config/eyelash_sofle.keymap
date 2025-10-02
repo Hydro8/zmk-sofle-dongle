@@ -65,7 +65,7 @@
         app_switch: app_switch {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&swap &mo 2>;
+            bindings = <&mo 2>;
             label = "APP_SWITCH";
         };
     };
