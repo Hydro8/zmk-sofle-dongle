@@ -142,6 +142,8 @@
             label = "NEW_BEHAVIOR4";
             #binding-cells = <0>;
             bindings = <&new_behavior2>, <&kp W>, <&kp O>;
+
+            tapping-term-ms = <400>;
         };
 
         new_behavior5: new_behavior5 {
