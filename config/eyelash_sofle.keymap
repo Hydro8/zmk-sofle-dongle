@@ -100,7 +100,7 @@
             #binding-cells = <0>;
             bindings = <&kt LEFT_GUI>, <&kp TAB>, <&kt LEFT_GUI>;
 
-            ignored-key-positions = <1>;
+            ignored-key-positions = <29 30>;
         };
 
         delete_morph: delete_morph {
