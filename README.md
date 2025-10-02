@@ -1,3 +1,3 @@
-# Sofle键位图
+# Sofle
 
 <img src="keymap-drawer/eyelash_sofle.svg" >
