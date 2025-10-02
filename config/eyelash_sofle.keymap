@@ -129,7 +129,7 @@
         new_behavior2: new_behavior2 {
             compatible = "zmk,behavior-mod-morph";
             label = "NEW_BEHAVIOR2";
-            bindings = <&new_behavior2>, <&kp C>;
+            bindings = <&new_behavior>, <&kp C>;
 
             #binding-cells = <0>;
             mods = <(MOD_LGUI)>;
