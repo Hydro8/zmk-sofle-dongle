@@ -119,17 +119,10 @@
             mods = <(MOD_LGUI)>;
         };
 
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-tap-dance";
-            label = "NEW_BEHAVIOR";
-            #binding-cells = <0>;
-            bindings = <&kp BACKSPACE>, <&kp A>, <&kp B>;
-        };
-
         new_behavior2: new_behavior2 {
             compatible = "zmk,behavior-mod-morph";
             label = "NEW_BEHAVIOR2";
-            bindings = <&new_behavior>, <&kp C>;
+            bindings = <&kp S>, <&kp P>;
 
             #binding-cells = <0>;
             mods = <(MOD_LGUI)>;
@@ -138,7 +131,7 @@
         new_behavior3: new_behavior3 {
             compatible = "zmk,behavior-hold-tap";
             label = "NEW_BEHAVIOR3";
-            bindings = <&new_behavior4>, <&new_behavior2>;
+            bindings = <&new_behavior5>, <&new_behavior4>;
 
             #binding-cells = <2>;
             tapping-term-ms = <500>;
@@ -148,7 +141,16 @@
             compatible = "zmk,behavior-tap-dance";
             label = "NEW_BEHAVIOR4";
             #binding-cells = <0>;
-            bindings = <&kp E>;
+            bindings = <&new_behavior2>, <&kp W>, <&kp O>;
+        };
+
+        new_behavior5: new_behavior5 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "NEW_BEHAVIOR5";
+            bindings = <&kp V>, <&kp LS(V)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI)>;
         };
     };
 
