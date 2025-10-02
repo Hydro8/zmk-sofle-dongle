@@ -36,6 +36,10 @@
     acceleration-exponent = <1>;
 };
 
+&num_word {
+  continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL F13 SPACE>;
+};
+
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
@@ -99,13 +103,6 @@
             bindings = <&kt LEFT_GUI>, <&kp TAB>, <&kt LEFT_GUI>;
 
             ignored-key-positions = <1>;
-        };
-
-        nav_word: nav_word {
-            compatible = "zmk,behavior-auto-layer";
-            #binding-cells = <1>;
-            continue-list = <LEFT DOWN UP RIGHT PG_DN PG_UP>;
-            ignore-modifiers;
         };
 
         delete_morph: delete_morph {
