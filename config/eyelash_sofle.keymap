@@ -37,7 +37,7 @@
 };
 
 &num_word {
-  continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL F13 SPACE>;
+  continue-list = <BSPC DEL DOT COMMA KP_PLUS KP_MINUS KP_MULTIPLY KP_SLASH FSLH EQUAL F13 SPACE>;
 };
 
 / {
