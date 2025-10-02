@@ -44,6 +44,22 @@
         tap-ms = <30>;
     };
 
+    macros {
+        ToLayer1: Layer1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F19 &to 1>;
+            label = "LAYER1";
+        };
+
+        ToLayer0: Layer_0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F20 &to 0>;
+            label = "LAYER_0";
+        };
+    };
+
     behaviors {
         my_mt: my_mod_tap {
             compatible = "zmk,behavior-hold-tap";
@@ -53,6 +69,14 @@
             bindings = <&kp>, <&kp>;
 
             display-name = "Mod-Tap";
+        };
+        swap: swapper {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LEFT_GUI>, <&kp TAB>, <&kt LEFT_GUI>;
+
+            ignored-key-positions = <1>;
         };
     };
 
