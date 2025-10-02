@@ -154,7 +154,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL>, <&kp TAB>, <&kt LCTRL>;
 
-            ignored-key-positions = <1>;
+            ignored-key-positions = <56>;
         };
     };
 
