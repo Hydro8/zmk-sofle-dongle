@@ -182,6 +182,11 @@
             key-positions = <30>;
             layers = <3>;
         };
+
+        Space {
+            bindings = <&kp SPACE>;
+            key-positions = <55 56>;
+        };
     };
 
     keymap {
