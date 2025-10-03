@@ -167,7 +167,7 @@
         new_tab: new_tab {
             compatible = "zmk,behavior-mod-morph";
             label = "NEW_TAB";
-            bindings = <&kp Q>, <&new_tab>;
+            bindings = <&kp Q>, <&new>;
 
             #binding-cells = <0>;
             mods = <(MOD_LGUI)>;
