@@ -178,6 +178,8 @@
             label = "STICKYSHIFT";
             #binding-cells = <0>;
             bindings = <&kp RET>, <&sk LSHFT>;
+
+            tapping-term-ms = <400>;
         };
     };
 
